@@ -16,8 +16,15 @@ This project demonstrates web form creation, responsive design, and modern styli
 ### Desktop View
 https://github.com/CrackedPhos/mphos-bakery-employment-form/blob/main/Desktop%20Design.png
 
+https://github.com/CrackedPhos/mphos-bakery-employment-form/blob/main/Desktop%20Design%232.png
+
 ### Mobile View
 
+https://github.com/CrackedPhos/mphos-bakery-employment-form/blob/main/Mobile%20Design.png
+
+### Tablet View
+
+https://github.com/CrackedPhos/mphos-bakery-employment-form/blob/main/Tablet%20Design.png
 
 ## 🧱 Features
 
