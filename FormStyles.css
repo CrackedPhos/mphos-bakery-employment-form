@@ -1,0 +1,156 @@
+.business-name {
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+.fine-print{
+  font-size: 10px;
+  font-style: italic;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #3c3c61;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid #372a42;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+input[type="submit"] {
+  background-color: #35883c;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+input[type="submit"]:hover{
+  background-color: #1d6924;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 1em;
+  }
+
+  .business-name {
+    font-size: 28px;
+  }
+
+  form {
+    width: 90vw;
+    padding-bottom: 1em;
+  }
+
+  input[type="submit"] {
+    width: 80%;
+    font-size: 1rem;
+    min-width: unset;
+  }
+
+  fieldset {
+    padding: 1.5rem 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  body {
+    font-size: 1rem;
+
+  }
+
+  form {
+    width: 80vw;
+  }
+
+  .business-name {
+    font-size: 2.5rem;
+  
+  }
+
+  input[type="submit"] {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1025px) {
+  form {
+    width: 50vw;
+  }
+
+  .business-name {
+    font-size: 3rem;
+  }
+}
+
